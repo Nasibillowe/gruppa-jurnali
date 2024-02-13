@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background: url(/img/download.jfif);
+ background: no-repeat0;
+ background-size: cover;
+}
+.box{
+    border: 2px solid rgb(2, 0, 0);
+    padding: 5px;
+    border-radius: 7px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
